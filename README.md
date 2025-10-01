@@ -100,3 +100,10 @@ Région Nord → 20 725 €.
 Région Sud → 24 100 €. 
 
  Grâce au GROUP BY region, on constate que la région Sud surpasse légèrement la région Nord.  en chiffre d’affaires.
+
+###  Conclusion
+
+Sur 20 jours, le chiffre global atteint **44 825 €**.  
+L’analyse montre que le **produit A** est le plus rentable, tandis que la **région Sud** réalise légèrement plus de ventes que la région Nord.  
+
+
