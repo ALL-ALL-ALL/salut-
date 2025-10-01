@@ -82,7 +82,9 @@ GROUP BY produit. ;
 
 **Résultats** :
 Produit A → 17 500 €. 
+
 Produit B → 15 825 €. 
+
 Produit C → 11 500 €. 
 
  Ici, on regroupe les ventes par produit(3) (GROUP BY produit), puis on calcule le chiffre.  d’affaires de chacun. Produit A le plus de grand, suivi de B puis de C.
@@ -97,6 +99,7 @@ GROUP BY region. ;
 
 **Résultats** :
 Région Nord → 20 725 €. 
+
 Région Sud → 24 100 €. 
 
  Grâce au GROUP BY region, on constate que la région Sud surpasse légèrement la région Nord.  en chiffre d’affaires.
