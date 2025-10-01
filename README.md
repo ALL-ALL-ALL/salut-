@@ -65,7 +65,7 @@ Une fois que vous avez terminé de travailler sur les consignes du projet et que
 A) **Chiffre d’affaires total**
 
 **Requête utilisée** :
-SELECT SUM(prix * qte) AS chiffre_affaire_total. 
+SELECT SUM(prix * qte) AS chiffre_affaire_total. .   
 FROM ventes. ;  
 
 **Résultat obtenu** : 44 825 €. 
