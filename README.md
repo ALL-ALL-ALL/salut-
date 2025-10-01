@@ -65,38 +65,38 @@ Une fois que vous avez terminé de travailler sur les consignes du projet et que
 A) **Chiffre d’affaires total**
 
 **Requête utilisée** :
-SELECT SUM(prix * qte) AS chiffre_affaire_total
-FROM ventes;
+SELECT SUM(prix * qte) AS chiffre_affaire_total. 
+FROM ventes. ;  
 
-**Résultat obtenu** : 44 825 €
- Cette requête additionne (SUM) les résultats de la multiplication prix * qte pour chaque ligne, (sur 20jrs).
+**Résultat obtenu** : 44 825 €. 
+ Cette requête additionne (SUM) les résultats de la multiplication prix * qte pour chaque.  ligne, (sur 20jrs).
 
 
 B) **Ventes par produit**
 
 **Requête utilisée** :
 
-SELECT produit, SUM(prix * qte) AS les_ventes_par_produit
-FROM ventes
-GROUP BY produit;
+SELECT produit, SUM(prix * qte) AS les_ventes_par_produit  
+FROM ventes. 
+GROUP BY produit. ;  
 
 **Résultats** :
-Produit A → 17 500 €
-Produit B → 15 825 €
-Produit C → 11 500 €
+Produit A → 17 500 €. 
+Produit B → 15 825 €. 
+Produit C → 11 500 €. 
 
- Ici, on regroupe les ventes par produit(3) (GROUP BY produit), puis on calcule le chiffre d’affaires de chacun. Produit A le plus de grand, suivi de B puis de C.
+ Ici, on regroupe les ventes par produit(3) (GROUP BY produit), puis on calcule le chiffre.  d’affaires de chacun. Produit A le plus de grand, suivi de B puis de C.
 
 C) **Ventes par région**
 
 **Requête utilisée** :
 
-SELECT region, SUM(prix * qte) AS les_ventes_par_region
-FROM ventes
-GROUP BY region;
+SELECT region, SUM(prix * qte) AS les_ventes_par_region. 
+FROM ventes. 
+GROUP BY region. ;  
 
 **Résultats** :
-Région Nord → 20 725 €
-Région Sud → 24 100 €
+Région Nord → 20 725 €. 
+Région Sud → 24 100 €. 
 
- Grâce au GROUP BY region, on constate que la région Sud surpasse légèrement la région Nord en chiffre d’affaires.
+ Grâce au GROUP BY region, on constate que la région Sud surpasse légèrement la région Nord.  en chiffre d’affaires.
