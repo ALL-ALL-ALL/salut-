@@ -76,8 +76,8 @@ B) **Ventes par produit**
 
 **Requête utilisée** :
 
-SELECT produit, SUM(prix * qte) AS les_ventes_par_produit  
-FROM ventes. 
+SELECT produit, SUM(prix * qte) AS les_ventes_par_produit. .  
+FROM ventes. . 
 GROUP BY produit. ;  
 
 **Résultats** :
@@ -91,8 +91,8 @@ C) **Ventes par région**
 
 **Requête utilisée** :
 
-SELECT region, SUM(prix * qte) AS les_ventes_par_region. 
-FROM ventes. 
+SELECT region, SUM(prix * qte) AS les_ventes_par_region. . 
+FROM ventes. . 
 GROUP BY region. ;  
 
 **Résultats** :
