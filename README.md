@@ -65,8 +65,7 @@ Une fois que vous avez terminé de travailler sur les consignes du projet et que
 A) **Chiffre d’affaires total**
 
 **Requête utilisée** :
-SELECT SUM(prix * qte) AS chiffre_affaire_total. .   
-FROM ventes. ;  
+SELECT SUM(prix * qte) AS chiffre_affaire_total FROM ventes.;  
 
 **Résultat obtenu** : 44 825 €. 
  Cette requête additionne (SUM) les résultats de la multiplication prix * qte pour chaque.  ligne, (sur 20jrs).
@@ -76,9 +75,7 @@ B) **Ventes par produit**
 
 **Requête utilisée** :
 
-SELECT produit, SUM(prix * qte) AS les_ventes_par_produit. .  
-FROM ventes. . 
-GROUP BY produit. ;  
+SELECT produit, SUM(prix * qte) AS les_ventes_par_produit FROM ventes GROUP BY produit;  
 
 **Résultats** :
 
@@ -94,9 +91,7 @@ C) **Ventes par région**
 
 **Requête utilisée** :
 
-SELECT region, SUM(prix * qte) AS les_ventes_par_region. 
-FROM ventes. 
-GROUP BY region. ;  
+SELECT region, SUM(prix * qte) AS les_ventes_par_region FROM ventes GROUP BY region;  
 
 **Résultats** :
 
