@@ -81,6 +81,7 @@ FROM ventes. .
 GROUP BY produit. ;  
 
 **Résultats** :
+
 Produit A → 17 500 €. 
 
 Produit B → 15 825 €. 
@@ -98,6 +99,7 @@ FROM ventes.
 GROUP BY region. ;  
 
 **Résultats** :
+
 Région Nord → 20 725 €. 
 
 Région Sud → 24 100 €. 
