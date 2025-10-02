@@ -63,6 +63,7 @@ Une fois que vous avez terminé de travailler sur les consignes du projet et que
 ## Synthèse de l’analyse des ventes
 
 A) **Chiffre d’affaires total**
+
 **Requête utilisée** :
 SELECT SUM(prix * qte) AS chiffre_affaire_total FROM ventes.;  
 
@@ -71,6 +72,7 @@ SELECT SUM(prix * qte) AS chiffre_affaire_total FROM ventes.;
 
 
 B) **Ventes par produit**
+
 **Requête utilisée** :
 
 SELECT produit, SUM(prix * qte) AS les_ventes_par_produit FROM ventes GROUP BY produit;  
@@ -86,6 +88,7 @@ Produit C → 11 500 €.
  Ici, on regroupe les ventes par produit(3) (GROUP BY produit), puis on calcule le chiffre.  d’affaires de chacun. Produit A le plus de grand, suivi de B puis de C.
 
 C) **Ventes par région**
+
 **Requête utilisée** :
 
 SELECT region, SUM(prix * qte) AS les_ventes_par_region FROM ventes GROUP BY region;  
